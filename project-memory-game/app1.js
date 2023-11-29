@@ -11,11 +11,11 @@ function shuffle(arrayForShuffling) {
 
 function init() {
   let cardGame = [
-    "/img/1.jpg",
-    "/img/3.jpg",
-    "/img/4.jpg",
-    "/img/5.jpg",
-    "/img/22.jpg",
+    "/project-memory-game/img/1.jpg",
+    "/project-memory-game/img/3.jpg",
+    "/project-memory-game/img/4.jpg",
+    "/project-memory-game/img/5.jpg",
+    "/project-memory-game/img/22.jpg",
   ];
 
   const arrayAfterShuffling = shuffle(cardGame.concat(cardGame));
@@ -47,7 +47,7 @@ function init() {
 
     const imgElement = document.createElement("img");
     imgElement.className = "img";
-    imgElement.src = "/img/2.jpg"; // Set a default image
+    imgElement.src = "/project-memory-game/img/2.jpg"; // Set a default image
     imgElement.alt = "";
 
     cardElement.appendChild(imgElement);
@@ -76,8 +76,8 @@ function init() {
           if (img1.src === img2.src) {
             openCards = [];
           } else {
-            img1.src = "/img/2.jpg";
-            img2.src = "/img/2.jpg";
+            img1.src = "/project-memory-game/img/2.jpg";
+            img2.src = "/project-memory-game/img/2.jpg";
             openCards = [];
           }
 
