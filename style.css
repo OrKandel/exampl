@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Cinzel", serif;
+}
+body {
+  background-color: beige;
+}
+.continer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.a1 {
+  margin-top: 30vh;
+  color: black;
+  background-image: url(./img/1.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  font-size: 80px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(78, 74, 55);
+  border: 6px double rgb(78, 74, 55);
+}
+.a2 {
+  color: black;
+  margin-top: 30vh;
+  background-image: url(./img/2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  font-size: 80px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(78, 74, 55);
+  border: 6px double rgb(78, 74, 55);
+}
+.a3 {
+  margin-top: 30vh;
+  background-image: url(./img/3.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  font-size: 80px;
+  text-align: center;
+  -webkit-text-fill-color: rgb(78, 74, 55);
+  border: 6px double rgb(78, 74, 55);
+}
+h1 {
+  text-align: center;
+  font-size: 80px;
+}
